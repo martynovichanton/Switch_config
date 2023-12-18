@@ -1,0 +1,11 @@
+﻿From Device Name,From Port Number,To Device Name,To Port Number,From Cable,From PP,To PP,To Cable,Device Type,Port Channel,Access / Trunk,Vlans,Type,Speed,GBIC type,Notes
+sw-test01,eth1/1,srv1,1,1001,pp:01 port1,pp:02 port1,2001,SRV,po200,access,10,fiber,10G,10Gbase-SR,
+sw-test01,eth1/2,srv2,1,1002,pp:01 port2,pp:02 port2,2002,SRV,po201,access,20,fiber,10G,10Gbase-SR,
+sw-test01,eth1/3,srv3,1,1003,pp:01 port3,pp:02 port3,2003,SRV,po202,access,30,fiber,10G,10Gbase-SR,
+sw-test01,eth1/4,srv4,1,1004,pp:01 port4,pp:02 port4,2004,SRV,po203,access,40,fiber,10G,10Gbase-SR,
+sw-test01,eth1/5,srv5,1,1005,pp:01 port5,pp:02 port5,2005,SRV,po204,access,50,fiber,10G,10Gbase-SR,
+sw-test01,eth1/6,srv6,1,1006,pp:01 port6,pp:02 port6,2006,SRV,po205,trunk,"1-20,100",fiber,10G,10Gbase-SR,
+sw-test01,eth1/7,srv7,1,1007,pp:01 port7,pp:02 port7,2007,SRV,po206,trunk,all,fiber,10G,10Gbase-SR,
+sw-test01,eth1/8,srv8,1,1008,pp:01 port8,pp:02 port8,2008,SRV,,access,10,fiber,10G,10Gbase-SR,
+sw-test01,eth1/9,srv9,1,1009,pp:01 port9,pp:02 port9,2009,SRV,,trunk,"20,30",fiber,10G,10Gbase-SR,
+sw-test01,eth1/10,srv10,1,1010,pp:01 port10,pp:02 port10,2010,SRV,,trunk,all,fiber,10G,10Gbase-SR,
